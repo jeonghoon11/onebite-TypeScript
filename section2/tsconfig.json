@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", //변환될 Js의 버전
+    "module": "ESNext", //module을 ESmodule로 설정, package.json에서도 type을 commonjs에서 module로 설정
+    "outDir": "dist", // 컴파일 경로 dist
+    "strict": true, // 엄격한 검사, strictNullChecks 옵션의 상위 옵션
+    // "strictNullChecks": false, // 변수에 null값을 넣기 위함
+    "moduleDetection": "force" //개별 ts를 모듈로 지정
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"] //src 폴더 안의 모든 ts 컴파일
+}
