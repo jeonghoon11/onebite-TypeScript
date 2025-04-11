@@ -33,4 +33,4 @@ let numA: 10 = 10; // 10이라는 값만 넣을 수 있다.
 let strA: "hello" = "hello";
 // strA = "dir"; //오류 발생
 
-let boolA: true = false;
+// let boolA: true = false; //오류 발생
