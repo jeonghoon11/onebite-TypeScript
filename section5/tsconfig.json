@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true // (선택) 타입 충돌 무시하고 컴파일 강행
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
